@@ -56,6 +56,9 @@ var scheduleNextTweet = function(){
 };
 scheduleNextTweet();
 
+console.log('streams: ', streams);
+console.log('streams.home[0].created_at:', streams.home[0].created_at);
+
 // utility function for letting students add "write a tweet" functionality
 // (note: not used by the rest of this file.)
 var writeTweet = function(message){

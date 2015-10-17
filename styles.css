@@ -1,0 +1,34 @@
+body {
+	
+    background: #ECF3F9;
+    
+    font-size: 14px;
+    line-height: 18px;
+}
+.tweet {
+	background: #fff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  	display: block;
+	border: 1px solid #dfe2e5;
+	margin: 0 20%;
+	padding: 20px 30px;
+	
+}
+
+.tweet:hover,
+.tweettop:hover {
+	background: #ECF3F9;
+}
+
+.tweettop {
+	background: #fff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  	display: block;
+	border: 1px solid #dfe2e5;
+	margin: 0 20%;
+	padding: 20px 30px;
+}
+
+.tweettop:hover {
+	background-color: #F5F8FA;
+}
