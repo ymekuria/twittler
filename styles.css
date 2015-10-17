@@ -24,11 +24,29 @@ body {
 	background: #fff;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   	display: block;
+  	color: #478BCF;
 	border: 1px solid #dfe2e5;
-	margin: 0 20%;
+	margin: 5% 20% 0 20%;
 	padding: 20px 30px;
+	border-radius: .4em .4em 0px 0px;
+	text-align: center;
 }
 
 .tweettop:hover {
-	background-color: #F5F8FA;
+	background-color: #E1E8ED;
+
+}
+.username {
+	font-weight: bold;
+
+}
+
+.username:hover {
+	color: #478BCF;
+	text-decoration: underline;
+}
+
+.timestamp {
+	color: #8899A6;
+	font-size: .8em;
 }
