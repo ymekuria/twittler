@@ -4,7 +4,11 @@ $(document).ready(function(){
   var showAllStream = function () {
     var $body = $('body');
     $body.find('.tweet').hide();
-    $body.html('');
+    $body.find('.usertweet').hide();
+    $body.find('.tweettopall').hide();
+    $body.find('.tweettopuser').hide();
+    $body.find('.tweetbottom').hide();
+    //$body.html('');
     
     var index = streams.home.length - 1;
    

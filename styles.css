@@ -5,6 +5,18 @@ body {
     font-size: 16px;
     line-height: 18px;
 }
+.logo {
+	background: black;
+		
+  	color: #478BCF;
+	border: 1px solid #dfe2e5;
+	margin: 0% 30% 0 30%;
+	padding: 20px 30px;
+	border-radius: .5em .5em 0px 0px;
+	text-align: center;
+	font-size: 35px;
+    
+}
 .tweet,
 .usertweet {
 	background: #fff;
@@ -27,22 +39,20 @@ body {
 .tweetbottom,
 .tweettopuser {
 	background: #fff;
-		
-  	color: #478BCF;
+	color: #478BCF;
 	border: 1px solid #dfe2e5;
-	margin: 5% 30% 0 30%;
 	padding: 20px 30px;
-	border-radius: .4em .4em 0px 0px;
 	text-align: center;
 }
 
 .tweettopall,
 .tweettopuser {
-	margin: 5% 30% 0 30%;
+	margin: 0% 30% 0 30%;
 }
 
 .tweetbottom {
 	margin: 0% 30%;
+	border-radius: 0em 0em .4px .4px;
 }
 
 .tweettop:hover,
