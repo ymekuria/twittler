@@ -5,15 +5,7 @@ body {
     font-size: 16px;
     line-height: 18px;
 }
-.tweet {
-	background: #fff;
-	 
-  	display: block;
-	border: 1px solid #dfe2e5;
-	margin: 0 30%;
-	padding: 20px 30px;
-	
-}
+.tweet,
 .usertweet {
 	background: #fff;
 	 
@@ -23,13 +15,17 @@ body {
 	padding: 20px 30px;
 	
 }
-
+ 
 .tweet:hover,
-.tweettop:hover {
+.tweettopall:hover,
+.tweettopuser:hover,
+.usertweet:hover {
 	background: #ECF3F9;
 }
 
-.tweettop {
+.tweettopall,
+.tweetbottom,
+.tweettopuser {
 	background: #fff;
 		
   	color: #478BCF;
@@ -40,7 +36,17 @@ body {
 	text-align: center;
 }
 
-.tweettop:hover {
+.tweettopall,
+.tweettopuser {
+	margin: 5% 30% 0 30%;
+}
+
+.tweetbottom {
+	margin: 0% 30%;
+}
+
+.tweettop:hover,
+.tweetbottom:hover {
 	background-color: #E1E8ED;
 
 }
