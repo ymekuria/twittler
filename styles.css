@@ -1,16 +1,25 @@
 body {
 	
     background: #ECF3F9;
-    
-    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
     line-height: 18px;
 }
 .tweet {
 	background: #fff;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	 
   	display: block;
 	border: 1px solid #dfe2e5;
-	margin: 0 20%;
+	margin: 0 30%;
+	padding: 20px 30px;
+	
+}
+.usertweet {
+	background: #fff;
+	 
+  	display: block;
+	border: 1px solid #dfe2e5;
+	margin: 0 30%;
 	padding: 20px 30px;
 	
 }
@@ -22,11 +31,10 @@ body {
 
 .tweettop {
 	background: #fff;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  	display: block;
+		
   	color: #478BCF;
 	border: 1px solid #dfe2e5;
-	margin: 5% 20% 0 20%;
+	margin: 5% 30% 0 30%;
 	padding: 20px 30px;
 	border-radius: .4em .4em 0px 0px;
 	text-align: center;
@@ -37,7 +45,7 @@ body {
 
 }
 .username {
-	font-weight: bold;
+	font-weight: 600;
 
 }
 
