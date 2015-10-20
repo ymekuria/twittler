@@ -1,17 +1,22 @@
 $(document).ready(function(){
 
-  //This function displays all the users tweets.
-  var showAllStream = function () {
+  //This function hides all the tweets and buttons from the previous stream.
+  var hideStreams = function() {
     var $body = $('body');
+
     $body.find('.tweet').hide();
     $body.find('.usertweet').hide();
     $body.find('.tweettopall').hide();
     $body.find('.tweettopuser').hide();
     $body.find('.tweetbottom').hide();
-    //$body.html('');
-    
+  }; 
+
+  //This function displays all the users tweets.
+  var showAllStream = function() {
+    var $body = $('body');
     var index = streams.home.length - 1;
-   
+  
+    hideStreams();   
     //This creates a button at the top that shows new tweets when pressed
     $body.append('<div class="tweettopall "></div>')
     $body.find('.tweettopall').text('View New Tweets')
@@ -34,12 +39,8 @@ $(document).ready(function(){
     var $body = $('body');
     var index = streams.users[clickeduser].length - 1;
     
-    //Hiding this tweets and buttons from the previous stream.
-    $body.find('.tweettopuser').hide()
-    $body.find('.usertweet').hide()
-    $body.find('.tweet').hide();
-    $body.find('.tweetbottom').hide()
-    $body.find('.tweettopall').hide()
+    hideStreams();
+   
     $body.append('<div class="tweettopuser" data-user='+clickeduser+ '>View New Tweets</div>')
     
     
